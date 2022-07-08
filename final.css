@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #001a2c;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    background-color: #001a2c;
+}
+.barra{
+    display: flex;
+    justify-content: space-around;
+}
+.fant{
+    font-size: 45px;
+    font-family: Century;
+    color: #FFFFFF;
+}
+.font{
+    padding: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Forte;
+}
+.font:hover{
+    color:#EA84FF;
+}
+.base{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 9px;
+    margin: 20px 0px 20px 0px;
+}
+.Color1{
+    height:86vh;
+    background: linear-gradient( #001f36 80%, transparent 0%);
+}
+.Color2{
+    height:50vh;
+    background: linear-gradient( #001a2c 80%,transparent 0% );
+}
+.josmar{
+    width: 30%;
+}
+.fuente{    
+    padding: 10px;
+    font-family: Colonna MT;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.barraj{
+    margin: 1px 2px 1px 0px;
+}
+.base-2{
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    margin: 15px;
+}
+.acerca-de-mi{
+    display: flex;
+    justify-content: space-around;
+}
+.fent{
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Forte;
+}
+.letra{
+    color: #FFFFFF;
+    margin: 20px;
+}
+.control{
+    width: 300px;
+    margin: 0px 0px 0px 130px;
+}
+
+.josmar{
+    width: 30%;
+}
+.importante{
+    display: flex;
+    justify-content: space-around;
+}
+.fint{
+    color: #FFFFFF;
+}
+.cop{
+    width: 100px;
+    height: 90px;
+}
+li{
+    color: #FFFFFF;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    margin: 5px;
+}
+.redes{
+    padding: 8px;
+    justify-content: space-between;
+}
+.redes2{
+    width: 100px;
+    border-radius: 15px ;
+    margin: 8px;
+}
+.tamaño{
+    width: 40px;
+    border-radius: 15px ;
+}
+.pentagono{
+    width: 100%;
+    height: auto;
+    margin: 50px auto 0;
+    overflow:initial;
+
+    animation: slide 15s infinite alternate ease-in-out;
+}
+.pentagono ul{
+    display: flex;
+    padding: 0; 
+    width: 300%; /*Agregar cada 100% por cada imagen*/
+}
+.pentagono li{
+    list-style: none;
+    width: 100%;
+}
+.pentagono img{
+    height: 250px;
+
+}
+
+@keyframes slide {
+    0%{margin-left: 0%;}
+    10%{margin-left: 0%;}
+
+    20%{margin-left: -100%;}
+    30%{margin-left: -100%;}
+
+    40%{margin-left: -200%;}
+    50%{margin-left: -200%;}
+
+    /*75%{margin-left: -300%;}
+    95%{margin-left: -300%;}*/
+
+    /*75%{margin-left: -300%;}
+    95%{margin-left: -300%;}*/
+    /*modificar el tiempo por cada imagen*/
+}
+li{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
